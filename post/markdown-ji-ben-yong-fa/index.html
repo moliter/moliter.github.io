@@ -4,7 +4,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<title>博客用途 | HERIKY</title>
+<title>Markdown基本用法 | HERIKY</title>
 
 <link rel="shortcut icon" href="https://moliter.github.io/favicon.ico?v=1614224004189">
 
@@ -202,7 +202,7 @@
         <div class="post-detail gt-bg-theme-color-second">
             <article class="gt-post-content">
                 <h2 class="post-title">
-                    博客用途
+                    Markdown基本用法
                 </h2>
                 <div class="post-info">
                     <time class="post-time gt-c-content-color-first">
@@ -211,15 +211,208 @@
                     
                 </div>
                 <div class="post-content">
-                    <ul>
-<li>记录Java和C++的学习笔记</li>
-<li>记录算法</li>
+                    <h2 id="表格">表格</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">表头</th>
+<th style="text-align:right">表头</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">单元格</td>
+<td style="text-align:right">单元格</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>
+<p>使用|来分割单元格</p>
+</li>
+<li>
+<p>使用-来分割表头和单元格</p>
+</li>
+<li>
+<p>-:右对齐</p>
+</li>
+<li>
+<p>:-左对齐</p>
+</li>
+<li>
+<p>:-:居中对齐</p>
+</li>
+<li>
+<p>| 表头 | 表头 |</p>
+<p>|:---|---😐</p>
+<p>| 单元格 | 单元格 |</p>
+</li>
+<li>
+<p>内容与|之间需要加空格</p>
+</li>
 </ul>
+<h2 id="图片">图片</h2>
+<p>​	<img src="http://static.runoob.com/images/runoob-logo.png" alt="图片" title="标题" loading="lazy"></p>
+<ul>
+<li>![文本](图片链接 &quot;图片标题&quot;)</li>
+<li>像链接一样使用变量</li>
+<li>通过&lt;img&gt; 来指定大小
+<ul>
+<li>
+<img src="http://static.runoob.com/images/runoob-logo.png" width=20%>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="链接">链接</h2>
+<ul>
+<li>
+<p>连接百度<a href="www.baidu.com">百度</a></p>
+<ul>
+<li>使用方法用[连接名称](连接地址)</li>
+</ul>
+</li>
+<li>
+<p>&lt;www.baidu.com&gt;</p>
+<ul>
+<li>使用&lt;连接地址&gt;</li>
+</ul>
+</li>
+<li>
+<p>通过变量来设置链接<a href="www.baidu.com">百度</a></p>
+</li>
+</ul>
+<h2 id="代码">代码</h2>
+<ul>
+<li></li>
+</ul>
+<pre><code class="language-c"> #include&lt;stdio.h&gt;
+ int main(void)
+ {
+     return 0;
+ }
+</code></pre>
+<ul>
+<li>
+<p>用```包裹</p>
+</li>
+<li>
+<p>` 包裹</p>
+<ul>
+<li>例
+<ul>
+<li><code>printf()</code>函数</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="区块">区块</h2>
+<ul>
+<li>
+<blockquote>
+<p>文本</p>
+</blockquote>
+</li>
+<li>
+<p>用&gt;</p>
+</li>
+<li>
+<p>可嵌套</p>
+</li>
+<li>
+<p>用 多个&gt;</p>
+<ul>
+<li>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote></blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="列表">列表</h2>
+<ul>
+<li>使用*、-、+或1.2.3.例如
+<ul>
+<li>文本<br>
+1.文本<br>
+2.文本</li>
+</ul>
+</li>
+</ul>
+<h2 id="标题">标题</h2>
+<ol>
+<li>使用#</li>
+</ol>
+<h2 id="段落格式">段落格式</h2>
+<ul>
+<li>
+<p>脚注</p>
+<ul>
+<li>
+<p><sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
+</li>
+<li></li>
+<li>
+<p>[^文本]需要脚注与之对应，前面需要一个空格</p>
+</li>
+</ul>
+</li>
+<li>
+<p>下划线</p>
+<ul>
+<li><u>文本</u></li>
+<li>&lt;u&gt;&lt;/u&gt;</li>
+</ul>
+</li>
+<li>
+<p>删除线</p>
+<ul>
+<li><s>baidu.com</s></li>
+<li>~~</li>
+</ul>
+</li>
+<li>
+<p>分隔线</p>
+<hr>
+<hr>
+<ul>
+<li>***和---</li>
+</ul>
+</li>
+<li>
+<p>字体</p>
+<ul>
+<li><em>斜体文本</em>  *包裹</li>
+<li><strong>粗体文本</strong> **包裹</li>
+<li><em><strong>粗斜体文本</strong></em>  ***包裹</li>
+</ul>
+</li>
+</ul>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>123456 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
 
                 </div>
             </article>
         </div>
 
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://moliter.github.io/post/bo-ke-yong-tu/" class="post-title gt-a-link">
+                    博客用途
+                </a>
+            </div>
         
 
         
