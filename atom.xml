@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://moliter.github.io</id>
-    <title>moliter&apos;s blog</title>
-    <updated>2021-02-25T01:18:38.496Z</updated>
+    <title>HERIKY</title>
+    <updated>2021-02-25T01:24:52.413Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://moliter.github.io"/>
     <link rel="self" href="https://moliter.github.io/atom.xml"/>
-    <subtitle>学习笔记</subtitle>
     <logo>https://moliter.github.io/images/avatar.png</logo>
     <icon>https://moliter.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, moliter&apos;s blog</rights>
+    <rights>All rights reserved 2021, HERIKY</rights>
     <entry>
         <title type="html"><![CDATA[博客用途]]></title>
         <id>https://moliter.github.io/post/bo-ke-yong-tu/</id>
