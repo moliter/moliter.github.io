@@ -6,14 +6,36 @@
     <description>Recent content on Blog</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 24 Aug 2023 11:49:46 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 20 Apr 2025 11:49:46 -0700</lastBuildDate>
     <atom:link href="https://moliter.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>https://moliter.github.io/posts/first-note/</link>
-      <pubDate>Thu, 24 Aug 2023 11:49:46 -0700</pubDate>
-      <guid>https://moliter.github.io/posts/first-note/</guid>
-      <description>&lt;h1 id=&#34;我的第一个博文&#34;&gt;我的第一个博文&lt;/h1&gt;</description>
+      <title>Memo</title>
+      <link>https://moliter.github.io/posts/memo/</link>
+      <pubDate>Sun, 20 Apr 2025 11:49:46 -0700</pubDate>
+      <guid>https://moliter.github.io/posts/memo/</guid>
+      <description>&lt;h1 id=&#34;随记&#34;&gt;随记&lt;/h1&gt;
+&lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;
+&lt;p&gt;记录一些自己的随想&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Note</title>
+      <link>https://moliter.github.io/posts/note/</link>
+      <pubDate>Sun, 20 Apr 2025 11:49:46 -0700</pubDate>
+      <guid>https://moliter.github.io/posts/note/</guid>
+      <description>&lt;h1 id=&#34;笔记&#34;&gt;笔记&lt;/h1&gt;
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+&lt;p&gt;主要记录一些零散的感觉有用的知识点&lt;/p&gt;
+&lt;h4 id=&#34;三明治批评法&#34;&gt;三明治批评法&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;表扬&lt;/li&gt;
+&lt;li&gt;建议&lt;/li&gt;
+&lt;li&gt;鼓励&lt;/li&gt;
+&lt;li&gt;eg.
+&lt;ul&gt;
+&lt;li&gt;你的乐高搭得真有创意（肯定），但房间太乱可能会弄丢零件哦（建议）。整理好后，下次玩会更方便（激励）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
