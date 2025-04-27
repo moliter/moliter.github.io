@@ -6,8 +6,20 @@
     <description>Recent content on Blog</description>
     <generator>Hugo -- 0.147.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 20 Apr 2025 11:49:46 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 26 Apr 2025 11:49:46 -0700</lastBuildDate>
     <atom:link href="https://moliter.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Links</title>
+      <link>https://moliter.github.io/posts/links/</link>
+      <pubDate>Sat, 26 Apr 2025 11:49:46 -0700</pubDate>
+      <guid>https://moliter.github.io/posts/links/</guid>
+      <description>&lt;h1 id=&#34;网站收藏&#34;&gt;网站收藏&lt;/h1&gt;
+&lt;h2 id=&#34;ai-学习&#34;&gt;AI 学习&lt;/h2&gt;
+&lt;h3 id=&#34;langgraph&#34;&gt;LangGraph&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;[[&lt;a href=&#34;https://mirror-feeling-d80.notion.site/Workflow-And-Agents-17e808527b1780d792a0d934ce62bee6&#34;&gt;Workflow And Agents&lt;/a&gt;]]&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Memo</title>
       <link>https://moliter.github.io/posts/memo/</link>
